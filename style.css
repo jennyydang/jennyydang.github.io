@@ -6,7 +6,7 @@ body {
   
 
 h2 {
-  font-size: 24px;
+  font-size: 40px;
   text-transform: uppercase;
   color: #303030;
   font-weight: 600;
@@ -23,10 +23,13 @@ h4 {
   
 .jumbotron {
   background-color: #26a4e2;
-  height: 600px;
   color: #fff;
   padding: 100px 25px;
   font-family: Montserrat, sans-serif;
+}
+
+.jumbo-text {
+  padding: 10% 0 10% 0;
 }
 
 .container-fluid {
@@ -132,7 +135,7 @@ h4 {
   
 .navbar {
   margin-bottom: 0;
-  background-color: #26a4e2;
+  background-color: #1d84b7;
   z-index: 9999;
   border: 0;
   font-size: 12px !important;
@@ -157,13 +160,15 @@ h4 {
 }
 
 footer {
+  background-color: #1d84b7;
+  color: #fff;
   padding: 15px 50px;
 }  
 
 footer .glyphicon {
   font-size: 20px;
   margin-bottom: 20px;
-  color: #f4511e;
+  color: #16dbe8;
 }
   
 .slideanim {visibility:hidden;}
