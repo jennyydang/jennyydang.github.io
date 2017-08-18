@@ -31,6 +31,9 @@ h4 {
 .jumbo-text {
   padding: 10% 0 10% 0;
 }
+.jumbo-text h1 {
+  text-shadow: 2px 2px 4px #000000;
+}
 
 .container-fluid {
   padding: 70px 50px;
