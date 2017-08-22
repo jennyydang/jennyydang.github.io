@@ -22,8 +22,8 @@ h4 {
 }  
   
 .jumbotron {
-  background-color: #f1a583;
-  background-image: url("img/background.png");
+  background-color: #373d42;
+  background-image: url("../img/background.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -161,7 +161,7 @@ h4 {
   
 .navbar {
   margin-bottom: 0;
-  background-color: #f1a583;
+  background-color: #373d42;
   z-index: 9999;
   border: 0;
   font-size: 12px !important;
@@ -176,7 +176,7 @@ h4 {
 }
   
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #f4511e !important;
+  color: #121517 !important;
   background-color: #fff !important;
 }
 
@@ -248,7 +248,7 @@ h4 {
 
 
 footer {
-  background-color: #f1a583;
+  background-color: #373d42;
   color: #fff;
   padding: 15px 50px;
 }  
