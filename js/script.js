@@ -20,6 +20,10 @@ $(document).ready(function(){
       });
     } // End if
   });
+
+
+
+
   
   $(window).scroll(function() {
     $(".slideanim").each(function(){
