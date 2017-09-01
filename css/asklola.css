@@ -22,9 +22,28 @@ hr {
   padding: 0 20% 5% 20%;
 }
 
+.bg-white2 {
+  background-color: #fff;
+  border-top: 3px #efefef solid;
+}
+
 .web-display img {
   margin: 0 auto;
   -webkit-box-shadow: 0px 0px 50px -4px rgba(196,194,196,1);
   -moz-box-shadow: 0px 0px 50px -4px rgba(196,194,196,1);
   box-shadow: 0px 0px 50px -4px rgba(196,194,196,1); 
 }
+
+.des-description {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
