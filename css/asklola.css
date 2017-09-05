@@ -25,6 +25,18 @@ hr {
   padding: 0 20% 5% 20%;
 }
 
+.bg-darkgrey {
+  background-color: #303030;
+  color: #fff;
+  border-bottom: 3px #efefef solid;
+}
+.bg-darkgrey h2 {
+  color: #fff;
+}
+.bg-darkgrey h4 {
+  color: #fff;
+}
+
 .bg-white2 {
   background-color: #fff;
   border-top: 3px #efefef solid;
@@ -64,6 +76,14 @@ hr {
   display: inline-block;
   text-align: left;
   vertical-align: middle;
+}
+
+.research-process {
+  width: 90%;
+  padding-top: 2em;
+}
+.research-process img {
+  margin: 0 auto;
 }
 
 .logo-process {
