@@ -309,4 +309,7 @@ footer .glyphicon {
     .logo {
       font-size: 150px;
     }
+    .proj-container {
+      margin: 1em 0 0 0;
+    }
   }
