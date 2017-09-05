@@ -56,6 +56,27 @@ hr {
   text-align: center;
 }
 
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.logo-process {
+  padding-top: 2em;
+}
+.logo-process img {
+  max-height: 150px;
+  margin: 0 auto;
+}
+.logo-process-imgs {
+  padding-top: 2em;
+}
+.user-persona img {
+  margin: 0 auto;
+}
+
+
 @media screen and (min-width: 768px) { 
   .modal:before {
     display: inline-block;
@@ -64,15 +85,6 @@ hr {
     height: 100%;
   }
 }
-
-.modal-dialog {
-  display: inline-block;
-  text-align: left;
-  vertical-align: middle;
-}
-
-
-
 
 
 
