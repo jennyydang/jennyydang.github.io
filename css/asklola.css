@@ -12,6 +12,9 @@ hr {
 .about-project {
 	margin: 10% 5% 0 5%;
 }
+.about-project h3 {
+  margin: 0;
+}
 
 .bg-grey2 {
   background-color: #fafafa;
@@ -33,6 +36,7 @@ hr {
   -moz-box-shadow: 0px 0px 50px -4px rgba(196,194,196,1);
   box-shadow: 0px 0px 50px -4px rgba(196,194,196,1); 
 }
+
 
 .des-description {
   width: 80%;
@@ -75,6 +79,10 @@ hr {
 .user-persona img {
   padding-top: 4em;
   margin: 0 auto;
+}
+
+.process {
+  padding-top: 2em;
 }
 
 .connectivity-model img {
