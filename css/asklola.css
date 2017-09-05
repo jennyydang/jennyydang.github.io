@@ -69,10 +69,11 @@ hr {
   max-height: 150px;
   margin: 0 auto;
 }
-.logo-process-imgs {
+.logo-process-imgs img {
   padding-top: 2em;
 }
 .user-persona img {
+  padding-top: 2em;
   margin: 0 auto;
 }
 
