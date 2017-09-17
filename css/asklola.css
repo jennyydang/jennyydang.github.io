@@ -1,139 +1,78 @@
-h2, h4 {
-	margin: 0px;
+.landing-asklola {
+    height: 350px;
+    background-image: url(../img/portfolios/web/asklola/landing-asklola.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-hr {
-	margin-top: 0px;
+.landing-cookbook {
+    height: 350px;
+    background-image: url(../img/portfolios/design/kawaii-cookbook/landing-cookbook.jpg);
 }
 
-.about-padding {
-	padding-top: 7%;
+.landing-kitchen {
+    height: 350px;
+    background-image: url(../img/portfolios/design/kawaii-kitchen/landing-kitchen.jpg);
 }
-.about-project {
-	margin: 10% 5% 0 5%;
+.landing-niantic {
+    height: 350px;
+    background-image: url(../img/portfolios/web/niantic/landing-niantic.jpg);
 }
-.about-project h3 {
-  margin: 0;
+.landing-ctnw {
+    height: 350px;
+    background-image: url(../img/portfolios/web/ctnw/landing-ctnw.jpg);
 }
-
-.bg-grey2 {
-  background-color: #fafafa;
-  border-top: 3px #efefef solid;
+.landing-pkmn {
+    height: 350px;
+    background-image: none;
+    background-color: #ffb540;
 }
-.bg-grey3 {
-  background-color: #fafafa;
-  padding: 0 20% 5% 20%;
+.landing-nyc {
+    height: 350px;
+    background-image: url(../img/portfolios/web/nyc/landing-nyc.jpg);
 }
-
-.bg-darkgrey {
-  background-color: #303030;
-  color: #fff;
-  border-bottom: 3px #efefef solid;
-}
-.bg-darkgrey h2 {
-  color: #fff;
-}
-.bg-darkgrey h4 {
-  color: #fff;
-}
-
-.bg-white2 {
-  background-color: #fff;
-  border-top: 3px #efefef solid;
-}
-
-.web-display img {
-  margin: 0 auto;
-  -webkit-box-shadow: 0px 0px 50px -4px rgba(196,194,196,1);
-  -moz-box-shadow: 0px 0px 50px -4px rgba(196,194,196,1);
-  box-shadow: 0px 0px 50px -4px rgba(196,194,196,1); 
+.landing-rxn{
+    height: 350px;
+    background-image: url(../img/portfolios/design/rxn/landing-rxn.jpg);
 }
 
 
-.des-description {
-  width: 80%;
-  margin: 0 auto;
+.landing-text {
+    padding-top: 150px;
+}
+.landing-text h1 {
+	color: #000;
+	font-size: 100px;
 }
 
-.design-btn {
-    background-color: #3981f3;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+.rxn-text h1 {
+	font-size: 5em;
+}
+.rxn-btns {
+    color: #00bbff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.rxn-btns:hover {
+    color: #00a2dd;
     cursor: pointer;
+    text-decoration: none;
 }
-
-.modal {
-  text-align: center;
+.about-project2 {
+    max-width: 900px;
+    width: 100%;
 }
-
-.modal-dialog {
-  display: inline-block;
-  text-align: left;
-  vertical-align: middle;
-}
-
-.research-process {
-  width: 90%;
-  padding-top: 2em;
-}
-.research-process img {
-  margin: 0 auto;
-}
-
-.logo-process {
-  padding-top: 2em;
-}
-.logo-process img {
-  max-height: 150px;
-  margin: 0 auto;
-}
-.logo-process-imgs img {
-  padding-top: 2em;
-}
-.user-persona img {
-  padding-top: 4em;
-  margin: 0 auto;
-}
-
-.process {
-  padding-top: 2em;
-}
-
-.connectivity-model img {
-  padding-top: 1em;
-  margin: 0 auto;
-}
-
 .video-responsive {
-  height: 315px;
-  width: 560px;
-  padding-top: 2em;
-  margin: 0 auto;
+    height: 315px;
+    width: 560px;
+    padding-top: 2em;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 768px) {
+.landing-text h1 {
+    font-size: 4em;
 }
 
-.imageboard {
-  padding-top: 2em;
 }
-
-@media screen and (min-width: 768px) { 
-  .modal:before {
-    display: inline-block;
-    vertical-align: middle;
-    content: " ";
-    height: 100%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-    .video-responsive iframe {
-      width: 334px;
-      height: 188px;
-    }
-  }
-
