@@ -1,0 +1,46 @@
+.landing-asklola {
+    height: 350px;
+    background-image: url(../img/portfolios/web/asklola/landing-asklola.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landing-cookbook {
+    height: 350px;
+    background-image: url(../img/portfolios/design/kawaii-cookbook/landing-cookbook.jpg);
+}
+
+.landing-kitchen {
+    height: 350px;
+    background-image: url(../img/portfolios/design/kawaii-kitchen/landing-kitchen.jpg);
+}
+
+.landing-text {
+    padding-top: 150px;
+}
+.landing-text h1 {
+	color: #000;
+	font-size: 100px;
+}
+
+.rxn-text h1 {
+	font-size: 5em;
+}
+.about-project2 {
+    max-width: 900px;
+    width: 100%;
+}
+.video-responsive {
+    height: 315px;
+    width: 560px;
+    padding-top: 2em;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 768px) {
+.landing-text h1 {
+    font-size: 4em;
+}
+
+}
