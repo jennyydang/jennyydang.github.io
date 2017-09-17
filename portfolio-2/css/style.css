@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.02em;
+    line-height: 23px;
+}
+a {color: #000;}
+a:hover {color: #575757;}
+
+/*navigation*/
+.navbar-default {
+	width: 100%;
+    background-color: transparent;
+    border-bottom: none;
+    padding: 20px 50px 10px 50px;
+    transition: background-color .5s ease 0s;
+}
+.navbar-default.opaque {
+    background-color: #fff;
+    border-bottom: 1px solid #e7e7e7;
+    transition: background-color .5s ease 0s;
+}
+.nav > li {
+    display: block;
+    margin: 10px 20px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #373737;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover, 
+{
+    color: #555;
+    background-color: transparent;
+    border-bottom: 2px solid #373737;
+}
+
+
+
+.landing {
+    height: 650px;
+    background-image: url(../img/landing.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.landing-text {
+    padding-top: 250px;
+}
+.landing-text h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    letter-spacing: 3px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+/* DEMO-SPECIFIC STYLES */
+.typewriter h5 {
+    color: #000;
+    font-family: monospace;
+}
+
+
+/*about*/
+.about-section {
+    width: 950px;
+    padding: 50px 30px;
+    margin: 0 auto !important;
+}
+.about {
+    padding: 100px 0 100px 50px;
+}
+.about-section p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    color: #575757;
+    line-height: 25px;
+    text-align: left;
+}
+.social-media-icons ul {
+    text-align: center;
+    padding-left: 0;
+}
+.social-media-icons li {
+    display: inline;
+    list-style: none;
+    padding: 20px;
+}
+.resume {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*skill*/
+.skills-section {
+    padding: 50px 0;
+}
+.skills-section h5 {
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.skills-icon {
+    color: #cfcfcf !important;
+    float: right;
+    padding-top: 30px;
+}
+
+/*education*/
+#education {
+    width: 100%;
+    background-color: #ffcd63;
+}
+#Capa_1 {
+    padding-left: 80px;
+}
+#education h2, #education h4 {
+    font-family: monospace;
+    text-transform: uppercase;
+}
+.edu-content {
+    width: 80%;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+.edu-content h5 {
+    font-family: monospace;
+    padding-left: 20px;
+}
+
+/*portfolio*/
+#portfolio .container {
+    padding-bottom: 40px;
+}
+
+/*contact*/
+.contact-section {
+    padding: 30px !important;
+}
+.contact-icons {
+    height: 50px;
+    width: auto;
+}
+
+
+
+
+/*generic*/
+.sections {
+    padding: 100px 0;
+}
+.text-center {text-align:center;}
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+.center {
+    width: 100%;
+    margin: 0 auto;
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+svg {
+    height: 400px;
+    width: auto;
+}
+path, line, polyline {
+    stroke: #fff;
+    stroke-width: 2px;
+}
+
+path {
+    fill: transparent;
+}
+
+
+/*animation*/
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+/*footer*/
+footer {
+    width: 100%; 
+    background-color: #252525;
+    color: #737373;
+    padding: 30px; 
+}
+footer p {
+    margin: 0;
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 480px) {
+.landing {
+    height: 400px;
+}
+.landing-text {
+    padding-top: 150px;
+}
+
+.landing-text h1 {
+    font-size: 1.5em;
+}
+
+/*about*/
+.about-section {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.about {
+    padding: 20px 10px;
+}
+
+}
+
+
+@media only screen and (max-width: 768px) {
+.about-section {
+    width: 100%;
+}
+.about {
+    padding: 20px 10px;
+}
+
+#Capa_1 {
+    height: 400px;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.edu-content {
+    width: 80%;
+    padding-top: 0px;
+    margin: 0 auto;
+}
+
+.sections {
+    padding: 30px 0;
+}
+
+}
