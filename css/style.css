@@ -178,7 +178,10 @@ a:hover {color: #575757;}
 }
 
 
-
+.demo {
+    width: 70%;
+    margin: 0 auto;
+}
 
 
 
@@ -221,6 +224,9 @@ a:hover {color: #575757;}
 
 .padding {
     padding: 30px 0 20px 0;
+}
+.padding2 {
+    padding: 30px 0;
 }
 .bg-grey {
     background-color: #a8a8a8;

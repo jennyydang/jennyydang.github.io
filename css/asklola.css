@@ -44,7 +44,10 @@
     margin: 0 auto;
 }
 .grey {
-    background-color: #f7f7f7 !important;
+    background: -webkit-linear-gradient(#f7f7f7, #f3f3f3) !important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f7f7f7, #f3f3f3) !important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f7f7f7, #f3f3f3) !important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f7f7f7, #f3f3f3) !important; 
 }
 
 
