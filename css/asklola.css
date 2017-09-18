@@ -39,6 +39,16 @@
 }
 
 
+.phone-display {
+    width: 70%;
+    margin: 0 auto;
+}
+.grey {
+    background-color: #f7f7f7 !important;
+}
+
+
+
 .landing-text {
     padding-top: 150px;
 }
