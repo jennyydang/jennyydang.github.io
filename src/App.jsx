@@ -1,8 +1,11 @@
-import { useState } from "react";
-import "./App.css";
+import "./assets/styles/main.scss";
 
 function App() {
-    return <>Hi</>;
+    return (
+        <div>
+            <h1>Hello World</h1>
+        </div>
+    );
 }
 
 export default App;

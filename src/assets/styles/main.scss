@@ -1,0 +1,14 @@
+@use "./variables.scss" as *;
+
+//example
+body {
+    background: $secondary-color;
+    font-size: 16px;
+}
+
+h1 {
+    color: $primary-color;
+    border: 5px solid $accent;
+    padding: 0.5rem 1rem;
+    font-family: $font-stack;
+}
