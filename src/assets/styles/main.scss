@@ -1,14 +1,11 @@
-@use "./variables.scss" as *;
+@use "./0.configs/colors.configs.scss" as *;
+@use "./0.configs/fonts.configs.scss" as *;
+
+@import "./1.base/fonts.base.scss";
+
+@import "./2.elements/tag/tag.element.scss";
 
 //example
 body {
-    background: $secondary-color;
-    font-size: 16px;
-}
-
-h1 {
-    color: $primary-color;
-    border: 5px solid $accent;
-    padding: 0.5rem 1rem;
-    font-family: $font-stack;
+    background-color: $olivedrab;
 }

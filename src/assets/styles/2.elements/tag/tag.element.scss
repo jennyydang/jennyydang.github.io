@@ -1,0 +1,13 @@
+.e-tag {
+    background-color: $olivedrab;
+    color: $white;
+    padding: 0.125em 0.75em;
+    border-radius: 1em;
+
+    &__ {
+        &light {
+            background-color: white;
+            color: black;
+        }
+    }
+}
